@@ -1,6 +1,6 @@
 # ASCII-ART-WEB-EXPORT
 
-Ascii-art-web-export is made on top of [ascii-art-web](https://learn.zone01oujda.ma/git/ndieye/ascii-art-web) project, it's [stylized](https://learn.zone01oujda.ma/git/ndieye/ascii-art-web-stylize) and [dockerized](https://learn.zone01oujda.ma/git/asadiqui/ascii-art-web-dockerize).
+Ascii-art-web-export is made on top of [ascii-art-web](https://github.com/majnun917/Ascii-art-web) project, it's [stylized](https://github.com/majnun917/ascii-art-stylize) and [dockerized](https://github.com/majnun917/ascii-art-web-dockerize).
 
 It consists on adding a feature that allows for exporting the output of the web application.
 
@@ -145,9 +145,9 @@ For more details, read: [HTTP status codes](https://en.wikipedia.org/wiki/List_o
 
 ## Autors
 
-- [Ndiasse Dieye](https://learn.zone01oujda.ma/git/ndieye)
-- [Otchoun Agiel](https://learn.zone01oujda.ma/git/aotchoun)
-- [Abdelilah Sadiqui](https://learn.zone01oujda.ma/git/asadiqui)
+- **Ndiasse Dieye**
+- **Otchoun Agiel**
+- **Abdelilah Sadiqui**
 
 ## License
 
