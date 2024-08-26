@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascii Art Web</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="icon" type="image/png" href="/static/images/favicon.png">
+</head>
+
+<body>
+    <div>
+        <a href="/"><img src="/static/images/logo.png" alt="logo-stylize" class="logo"></a>
+        <form action="/submit" method="post" target="asciiArtFrame" class="form">
+            <div class="banner-container">
+                <b style="margin-left: 10px;">Banners:</b>
+                <div class="choice">
+                    <input type="radio" name="banner" id="standard" value="standard" checked="true" />
+                    <label for="standard">Standard</label>
+                </div>
+                <div class="choice">
+                    <input type="radio" name="banner" id="shadow" value="shadow" />
+                    <label for="shadow">Shadow</label>
+                </div>
+                <div class="choice">
+                    <input type="radio" name="banner" id="thinkertoy" value="thinkertoy" />
+                    <label for="thinkertoy">Thinkertoy</label>
+                </div>
+            </div>
+            <textarea name="text" id="text" placeholder="Type something" maxlength="500" class="textarea"
+                required></textarea>
+            <input type="submit" class="button" value="Submit" />
+        </form>
+    </div>
+    <div class="ascii-art-container">
+        <h2>Generated Ascii Art:</h2>
+        <iframe name="asciiArtFrame" class="ascii-art-frame"></iframe>
+        <br>
+        <div class="button-container">
+            <form action="/download" method="get" target="asciiArtFrame">
+                <button type="submit" class="button">Download</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Trigger a confirmation dialog whenever the user tries
+    to refresh the page, close the tab, or navigate away. -->
+    <script>
+        window.addEventListener('beforeunload', function (e) {
+            e.preventDefault(); // Prevents unloading content
+            e.returnValue = ''; // Chrome, Firefox, IE
+            return ''; // For older browsers
+        });
+    </script>
+</body>
+
+</html>
