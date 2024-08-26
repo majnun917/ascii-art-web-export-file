@@ -1,6 +1,6 @@
 # ASCII-ART-WEB-EXPORT
 
-Ascii-art-web-export is made on top of [ascii-art-web](https://github.com/majnun917/Ascii-art-web) project, it's [stylized](https://github.com/majnun917/ascii-art-stylize) and [dockerized](https://github.com/majnun917/ascii-art-web-dockerize).
+Ascii-art-web-export is made on top of [ascii-art-web](https://github.com/majnun917/Ascii-art-web) project, [stylize](https://github.com/majnun917/ascii-art-stylize) and [dockerize](https://github.com/majnun917/ascii-art-web-dockerize) integrated.
 
 It consists on adding a feature that allows for exporting the output of the web application.
 
